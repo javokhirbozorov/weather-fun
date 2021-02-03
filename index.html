@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Single page</title>
+</head>
+
+<body>
+    <section>
+        <header id="site-header">
+            <div class="container">
+                <nav id="container" class="navbar fixed-top" style="padding-bottom:20px">
+                   
+                    <div id="burger-menu">
+                        <div id="up"></div>
+                        <div id="down"></div>
+                    </div>
+                    
+                    <div id="logo" class="">FUN</div>
+                    
+                    <div id="nav-link" class="nav nav-pills" >
+                        <a class="nav-item nav-link active" href="#home"> HOME</a>
+                        <a class="nav-item nav-link active" href="#features">FEATURES</a>
+                        <a class="nav-item nav-link active" href="#reviews">REVIEWS</a>
+                        <a class="nav-item nav-link active" href="#downloads">DOWNLOADS</a>
+                    </div>
+                    <div id="social-icon">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main data-spy="scroll" data-target="#nav-link">
+        <section id="home" class="bg">
+            <div class="container">
+                <div id="home-left">
+                    <h2>Get the most fun weather app</h2>
+                    <p>
+                        Simple,nice and user-friendly application of the weather. Only useful information.
+                    </p>
+                    <a href="#downloads"><button id="btndownload">Download</button></a>
+                    <a href="#features"><button id="btnfeatures">Features</button></a>
+                </div>
+                <div id="home-right">
+                    <img src="img/phone1.png" alt="phone">
+                </div>
+            </div>
+            <div id="scrollbtn">
+                <a href="#features"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </section>
+    </section>
+    <section id="features">
+        <div class="container">
+            <div id="perfect">
+                <div class="headings">
+                    <h3>PERFECT FEATURES</h3>
+                    <p>Only necessary</p>
+                </div>
+                <div id="feature-items">
+                    <div class="context" id="gal-item1">
+                        <img src="img/gal-item1.jpg" alt="">
+                        <div>
+                            <h4>Usability</h4>
+                            <p>
+                                Sometimes the simplest thungs are the hardest to find. So we created a new line for
+                                everyday life
+                            </p>
+                        </div>
+                    </div>
+                    <div class="context" id="gal-item2">
+                        <img src="img/gal-item2.jpg" alt="">
+                        <div>
+                            <h4>Parallax Effect</h4>
+                            <p>
+                                Sometimes the simplest thungs are the hardest to find. So we created a new line for
+                                everyday life
+                            </p>
+                        </div>
+                    </div>
+                    <div class="context" id="gal-item3">
+                        <img src="img/gal-item3.jpg" alt="">
+                        <div>
+                            <h4>Unlimited colors</h4>
+                            <p>
+                                Sometimes the simplest thungs are the hardest to find. So we created a new line for
+                                everyday life
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="headings" class="down">
+                    <h3>SIMPLE WIDGETS</h3>
+                    <p>Drag and Drop</p>
+                </div>
+                <div id="img1" class="">
+                    <div id="angleleft" class="angles"><a href=""><i class="fas fa-angle-left"></i></a></div>
+                    <img src="img/test1.png" alt="weather">
+                    <div id="angleright" class="angles"><a href=""><i class="fas fa-angle-right"></i></a></div>
+                </div>
+
+                <div id="screenshot-container" class="down">
+                    <div class="headings">
+                        <h3>SCREENSHOTS</h3>
+                        <p>The brightest images</p>
+                    </div>
+                    <div id="a" class="a">
+                        <div id="left-tel1" class="left-tel" class="tel">
+                            <img src="img/screen01.png" alt="">
+                        </div>
+                        <div class="right-text" class="text">
+                            <div class="scale">
+                                <img src="img/cloud1.png" alt="">
+                            </div>
+                            <h3>WHEN THE CLOUDS</h3>
+                            <p>
+                                Variable information on the air humidity, the feeling of the water, and the ability to
+                                share this with your friends
+                            </p>
+                        </div>
+                    </div>
+                    <div id="b">
+                        <div class="left-text" id="left-text">
+                            <div class="scale">
+                                <img src="img/sun1.png" alt="">
+                            </div>
+                            <h3>WHEN THE SUN</h3>
+                            <p>
+                                Variable information on the air humidity, the feeling of the water, and the ability to
+                                share this with your friends
+                            </p>
+                        </div>
+                        <div id="right-tel" class="right-tel" class="tel">
+                            <img src="img/screen02.png" alt="">
+                        </div>
+                    </div>
+                    <div id="c" class="a">
+                        <div id="left-tel2" class="left-tel tel">
+                            <img src="img/screen03.png" alt="">
+                        </div>
+                        <div class="right-text">
+                            <div class="scale">
+                                <img src="img/rainy1.png" alt="">
+                            </div>
+                            <h3>WHEN THE RAIN</h3>
+                            <p>
+                                Variable information on the air humidity, the feeling of the water, and the ability to share
+                                this with your friends
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    <section id="reviews" class="down" class="">
+        <div class="headings">
+            <h3>WHAT PEOPLE ARE SAYING</h3>
+            <p> Reviews</p>
+        </div>
+        <div id="reviews-4" class="container">
+            <div class="reviews-item">
+                <i class="fas fa-quote-left"></i>
+                <p>What art offers is space - a certain breathing room for <br> the spirit.</p>
+                <h6>John Updike</h6><i class="fas fa-quote-right" class="quote"></i>
+            </div>
+            <div class="reviews-item">
+                <i class="fas fa-quote-left"></i>
+                <p>We do not see the nature with our eyes, but with our understandings and our hearts.</p>
+                <h6>William Hazlitt</h6><i class="fas fa-quote-right" class="quote"></i>
+            </div>
+            <div class="reviews-item">
+                <i class="fas fa-quote-left"></i>
+                <p>The only courage that matters is the kind that gets you <br> from one moment to the next.</p>
+                <h6>Mignon McLaughlin</h6><i class="fas fa-quote-right" class="quote"></i>
+            </div>
+            <div class="reviews-item">
+                <i class="fas fa-quote-left"></i>
+                <p>No man has a good enough memory to be a successful liar.</p>
+                <h6>Abraham Lincoln</h6><i class="fas fa-quote-right" class="quote"></i>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div id="downloads" class="down" class="container">
+            <div id="left">
+                <h3>HOW TO DOWNLOAD THE APP?</h3>
+                <p>
+                    Just download the app from the store. simple, nice and user-friendly aplication of the weather. Only
+                    relevant and useful information.
+                </p>
+                <div id="img">
+                    <a href="#"><img src="img/appstor.png" alt="appstor"></a>
+                    <a href="#"><img src="img/googleplay.png" alt="googleplay"></a>
+                </div>
+            </div>
+            <div id="right">
+                <img src="img/appdownload1.png" alt="">
+            </div>
+        </div>
+    </main>
+        <div id="footer">
+            <div class="container" id="inside">
+                <div id="logo2"> <i id="fun">FUN</i> <i id="weather">WEATHER</i></div>
+                <div id="nav-link2">
+                    <a href="#home">HOME</a>
+                    <a href="#features">FEATURES</a>
+                    <a href="#reviews">REVIEWS</a>
+                    <a href="#downloads">DOWNLOADS</a>
+                </div>
+                <div id="social-icon2">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="container">
+                <hr>
+            </div>
+            <div id="rights" class="container">&copy 2016 All rights reserved. WEATHER FUN design by Javakhir Bazarov
+            </div>
+        </div>
+        </div>
+    </footer>
+   
+    
+    <!-- jQuery Library 
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script>
+	$(document).on('scroll', function(){
+		var scrollTop = $(this).scrollTop();
+		if(scrollTop >=  30) {
+			$('.active').removeClass('active');
+			if (scrollTop >= $('#download').offset().top  -  50) {
+				$('#home').addClass('active');
+			} else
+			if (scrollTop >= $('#reviews').offset().top) {
+				$('#features').addClass('active');
+			} else
+			if (scrollTop >= $('#features').offset().top) {
+				$('#reviews').addClass('active');
+			} else
+			if (scrollTop >= $('#intro').offset().top) {
+				$('#downloads').addClass('active');
+			}
+			
+			$('#site-header').css({backgroundColor: 'darkblue', padding: '5px'});
+		} else {
+			$('#home).removeClass ('active');
+			$('#site-header').css({backgroundColor: 'transparent', padding: '20px 0px'});
+		}
+	})
+    </script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    <script src="js/main.js"></script>
+</body>
+
+</html>
